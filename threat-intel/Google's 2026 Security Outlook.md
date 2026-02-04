@@ -1,6 +1,6 @@
 # Google Cloud - 2026 Cybersecurity Forecast
 
-**Date**: February 3, 2026
+**Date**: February 4, 2026
 **Source**: [Google Cloud CISO Perspectives](https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-2026-cybersecurity-forecast-report)
 
 ## Key Predictions & Trends
