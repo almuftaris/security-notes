@@ -1,6 +1,6 @@
 ## DPRK IT Workers: Insider Threat Campaign (UNC5267)
 
-**Date**: February 3, 2026
+**Date**: February 11, 2026
 **Source**: [Mandiant M-Trends 2025](https://cloud.google.com/security/resources/m-trends)
 **Corroboration**: CrowdStrike, Palo Alto Unit 42, FBI
 
