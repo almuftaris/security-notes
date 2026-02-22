@@ -1,11 +1,11 @@
 # GTIG AI Threat Tracker - IP Theft Targeting Frontier AI Labs
 
-**Date**: February 21, 2026
+**Date**: February 22, 2026
 **Source**: [Google Threat Intelligence Group](https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use)
 
 ## Shift in Threat Actor Profile: Private Organizations vs Nation States
 
-Google's AI Threat Tracker identifies emerging threats targeting frontier AI companies themselves, with **private organizations** (not just nation-state actors) conducting sophisticated attacks to steal intellectual property from model providers. The primary targets are AI labs like OpenAI, Anthropic, Google DeepMind, and other frontier model companies.
+Google's AI Threat Tracker identifies emerging threats targeting frontier AI companies themselves, with **private organizations** conducting excessive prompts to steal intellectual property from model providers. The primary targets of this attack are AI labs or any company that builds or operates their own custom models.
 
 ## Key Attack Vectors
 
