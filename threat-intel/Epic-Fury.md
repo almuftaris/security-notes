@@ -129,6 +129,39 @@ Google assesses UNC4444 uses credential phishing and watering holes for **victim
 
 ---
 
+## PANICPOACH: Android Malware Targeting Israeli Civilians
+
+**Date**: March 1, 2026 (day after hostilities began)  
+**Attribution**: UNC6729 (suspected Iran-nexus)  
+**Delivery**: SMS phishing to Israeli citizens
+
+### **Attack Overview**:
+
+**Lure**: SMS messages claiming technical issues with RedAlert app (legitimate airstrike warning application)
+- "A problem with receiving notifications has been resolved. Please update to the new version as soon as possible"
+- Sent during active hostilities when civilians desperately need emergency alerts
+- Links to bit.ly URLs → redirects to compromised WordPress site
+
+**Trojanized App**: RedAlert.apk
+- Package name: com.red.alertx (extra letter mimics legitimate com.red.alert)
+- Functional RedAlert app with hidden malware embedded
+- Two-stage loader: Initial APK reflectively loads PANICPOACH malware from assets
+- C2: https://api.ra-backup.com/analytics/submit.php
+
+### **Data Harvesting Capabilities**:
+
+Five separate collection modules activate immediately after permission verification:
+
+1. **SMS Data**: Message content, timestamps, sender/recipient numbers, read status
+2. **Contacts**: Names, phone numbers, last contact timestamps
+3. **Precise Location**: GPS coordinates, altitude, accuracy, timestamp, mock location detection
+4. **Account Information**: Usernames, emails, phone numbers, service provider identifiers
+5. **Installed Applications**: Complete app inventory
+
+**Exfiltration**: Data staged in hidden files on device before C2 transmission
+
+---
+
 ## Massive Cyber Offensive During Military Strikes
 
 **Date**: February 28, 2026  
