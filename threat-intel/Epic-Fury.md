@@ -146,7 +146,6 @@ Google assesses UNC4444 uses credential phishing and watering holes for **victim
 - Package name: com.red.alertx (extra letter mimics legitimate com.red.alert)
 - Functional RedAlert app with hidden malware embedded
 - Two-stage loader: Initial APK reflectively loads PANICPOACH malware from assets
-- C2: https://api.ra-backup.com/analytics/submit.php
 
 ### **Data Harvesting Capabilities**:
 
