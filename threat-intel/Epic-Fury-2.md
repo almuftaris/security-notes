@@ -135,3 +135,47 @@ Throughout the conflict, Iran's own internet situation has been a significant va
 - What distinguishes a "hacktivist" group like Handala from a traditional APT, and why does that distinction matter for attribution and legal response?
 - How effective are domain seizures as a counter-cyber-operations tool if groups can rebuild infrastructure within hours?
 - Iran's internet blackout has limited domestic state actors but hasn't stopped proxy groups abroad. What does this suggest about how Iran structures its cyber proxy relationships?
+
+---
+
+## Addendum: The Other Side — US and Israeli Offensive Cyber Activity
+
+One of the defining features of this conflict is the **information asymmetry** in what gets publicly documented. Iran-aligned groups self-report loudly on Telegram. The US and Israel do not. That said, there is meaningful public documentation of the offensive side — it's just mostly concentrated in the opening phase of the conflict, and it operates at a different level of abstraction than individual hacktivist claims.
+
+### US Cyber Command: Confirmed "First Mover" Role
+
+The clearest public acknowledgment came from the Chairman of the Joint Chiefs himself. On March 2, Gen. Dan Caine stated at a Pentagon press briefing that US Cyber Command and US Space Command were the "first movers" in Epic Fury, "layering non-kinetic effects, disrupting and degrading and blinding Iran's ability to see, communicate and respond."  This was a remarkable public admission — US officials have historically kept offensive cyber operations entirely classified, but the Trump-era Joint Staff under Caine has made a deliberate choice to acknowledge cyber as a mainstream domain of military power rather than a covert exception.
+
+Former cyber operators told Breaking Defense that USCYBERCOM's role likely evolved across phases of the operation — starting with first-strike disruption, then shifting into persistent intelligence collection. One former operator noted that for anything beyond a raid, cyber is most valuable for sustained intelligence gathering rather than kinetic-style effects, and that burning a high-value access point on disruption can backfire, as Russia learned when its Viasat attack in Ukraine pushed the Ukrainians to adopt Starlink and accelerated a modernization the Russians inadvertently funded. 
+
+The Pentagon also quietly stood up a new "non-kinetic effects cell" on the Joint Staff ahead of Epic Fury — a team specifically designed to integrate, coordinate, and synchronize cyber and electronic warfare capabilities into the planning and execution of operations globally, not as an afterthought but as a first-order planning element. 
+
+### Israeli SIGINT and Camera Access: Pre-Positioned Intelligence
+
+RUSI's analysis noted that Israel had pre-existing access to Iranian security and traffic camera networks, which — combined with CIA HUMINT about Khamenei's location — allowed US and Israeli planners to adjust the timing of the entire operation to exploit the window when he was present at the compound. The sequencing of HUMINT, SIGINT, and pre-positioned cyber access directly enabled a precision strike that limited collateral damage.  This is a concrete example of cyber as an intelligence enabler rather than a weapon in isolation.
+
+### The February 28 Blackout: Attributed to Israel
+
+Israeli sources described the February 28 internet blackout — which drove Iranian connectivity to 4% of normal — as the culmination of a campaign that began in January, combining electronic warfare that disrupted navigation and communications systems with DDoS attacks and deep intrusions into data systems.  Western intelligence sources confirmed the damage to the IRGC's communications infrastructure was deliberate, designed to prevent counterattack coordination and disrupt the ability to launch drones and ballistic missiles.  Israeli sources described the overall operation as the largest cyberattack in history, though that framing is impossible to independently verify.
+
+### Mossad's Psychological Operations Channel
+
+During the opening hours of Operation Roaring Lion, Mossad launched a Farsi-language Telegram channel offering Iranians an alternative information source, calling on "our Iranian brothers and sisters" and inviting them to share content of their "just struggle against the regime."  This followed a January 2026 operation in which government satellite broadcasts in Iran were reportedly hacked to air regime-change content to millions of households — a campaign attributed to Israeli intelligence operations.
+
+### March 4: IDF Physically Strikes the IRGC's Cyber Warfare Headquarters
+
+In a move that blurred the line between kinetic and cyber operations, the IDF announced on March 4 that it had bombed a large compound in eastern Tehran containing the IRGC's cyber and electronic warfare headquarters and its Intelligence Directorate, among other command centers.  Lt. Gen. Charles Moore, former deputy commander of US Cyber Command, assessed the strikes would have "a significant impact on the regime's ability to continue to execute these types of operations," while cautioning that proxy forces ideologically aligned with Iran could still operate independently.  This prediction turned out to be accurate — as the Stryker attack and subsequent hacktivist operations demonstrated, destroying a physical HQ does not neutralize a geographically distributed proxy network.
+
+### Predatory Sparrow: Active in 2025, Quieter in 2026
+
+During the June 2025 twelve-day conflict, Israeli-linked group Predatory Sparrow (Gonjeshke Darande) targeted Iran's financial infrastructure following US and Israeli strikes on Iranian nuclear facilities.  In those operations, Predatory Sparrow reportedly hacked Bank Sepah and Nobitex, Iran's largest cryptocurrency exchange, stealing and burning approximately $90 million in crypto assets — likely intended to signal to Tehran that Israel could cause domestic economic chaos. 
+
+In the 2026 conflict, Predatory Sparrow is documented as an active allied-side actor, though their public footprint during this conflict has been smaller than in 2025 — consistent with the pattern that when Israel operates at state level, its quieter intelligence and military units tend to absorb the mission that proxy hacktivists handled previously. 
+
+---
+
+### Why the Asymmetry Exists
+
+The information imbalance here is structural, not accidental. Iran-aligned groups post on Telegram because visibility is part of the strategy — hacktivist claims are psychological operations in themselves. The US and Israel operate on the opposite doctrine: acknowledge the role of cyber generally (as Caine did), but never confirm specific operations, targets, or technical methods. That means the offensive side of this conflict will likely remain only partially visible to the public until after-action reports, leaked documents, or journalistic investigations surface years from now — much like Stuxnet, which was only fully understood long after the fact.
+
+This makes the RUSI observation worth keeping in mind: *the intelligence-gathering role of cyber in this conflict is likely to prove as consequential as its disruptive one* — and that part may never be fully public.
